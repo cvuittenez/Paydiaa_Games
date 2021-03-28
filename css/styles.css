@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    background-color: #0C3922;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+header > img {
+    background-color: rgba(0,0,0,0);
+    width: 70px;
+    height: auto;
+    padding: 10px 0;
+}
+
+#ic-1, #ic-2, #ic-3 {
+    position: relative;
+}
+
+#ic-4 {
+    position: absolute;
+}
+
+#ic-1 {
+    left: 23%;
+}
+
+#ic-2 {
+    left: 43%;
+}
+
+#ic-3 {
+    left: 63%;
+}
+
+#ic-4 {
+    left: 46%;
+    top: 82%;
+    width: 9vw;
+    height: auto;
+}
+
+.page-1>.fond {
+    width: 101vw;
+    height: 100vh;
+    position: relative;
+    transform: translateX(-1vw);
+}
+
+.logo {
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    left: 43%;
+    top: 18%;
+    width: 15vw;
+    height: auto;
+}
+
+.titre {
+    color: white;
+    font-size: 5em;
+    position: absolute;
+    left: 41%;
+    top: 50%;
+    font-family: raleway, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
