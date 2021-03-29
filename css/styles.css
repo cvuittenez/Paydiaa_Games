@@ -80,7 +80,7 @@ header > img {
     text-align: center;
 }
 
-.equipe, .projet {
+h2 {
     font-family: Poppins, sans-serif;
     font-weight: Bold;
     font-size: 5em;
@@ -207,4 +207,48 @@ h4 {
     text-align: center;
     padding: 10px;
     margin: 30px;
+}
+
+form{
+    margin: 0 auto;
+    width: 1000px;
+    padding-bottom: 213px;
+}
+
+form div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    font: 30px raleway;
+    padding-bottom: 20px;
+}
+
+input, textarea {
+    font: 1em raleway;
+    width: 1000px;
+    box-sizing: border-box;
+    border: 2px solid #165425;
+    border-radius: 10px;
+}
+
+input:focus, textarea:focus {
+    border-color: #165425;
+}
+
+textarea {
+    vertical-align: top;
+    height: 8em;
+}
+
+button {
+    margin-left: 15em;
+    font-family: raleway, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #586E59;
 }
