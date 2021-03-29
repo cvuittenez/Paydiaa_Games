@@ -80,7 +80,7 @@ header > img {
     text-align: center;
 }
 
-.equipe {
+.equipe, .projet {
     font-family: Poppins, sans-serif;
     font-weight: Bold;
     font-size: 5em;
@@ -151,4 +151,60 @@ header > img {
     text-align: center;
     margin: 60px 100px 50px 100px;
     border-radius : 20px;
+}
+
+.page-3 {
+    background-color: #F9F9F9;
+}
+
+.le-projet {
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-template-areas: "pitch synopsis";
+}
+
+.pitch {
+    grid-area: pitch;
+}
+
+.synopsis {
+    grid-area: synopsis;
+}
+
+.pitch, .synopsis {
+    margin: 0 70px;
+}
+
+h3 {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #165425;
+    margin-bottom: 47px;
+}
+
+.pitch > p, .synopsis > p {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    color: #165425;
+    font-size: 22px;
+    line-height: 2;
+}
+
+.fonctionnalites {
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-template-areas: "section1 section2";
+}
+
+h4 {
+    font-family: Comfortaa, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    background-color: #436A4C;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
 }
