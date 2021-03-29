@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -75,4 +78,77 @@ header > img {
     font-family: raleway, sans-serif;
     font-weight: bold;
     text-align: center;
+}
+
+.equipe {
+    font-family: Poppins, sans-serif;
+    font-weight: Bold;
+    font-size: 5em;
+    color: #165425;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.notre-equipe {
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-template-areas: "yanis clementt clementv";
+}
+
+.yanis, .clementt, .clementv {
+    margin: 0 40px;
+}
+
+.yanis {
+    grid-area: yanis;
+}
+
+.clementt {
+    grid-area: clementt;
+}
+
+.clementv {
+    grid-area: clementv;
+}
+
+.pdp {
+    display: block;
+    margin: auto;
+}
+
+.nom {
+    font-family: Comfortaa, sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    color: #2D4A29;
+    text-align: center;
+    margin: 26px 0;
+}
+
+.role {
+    font-family: Comfortaa, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #2D4A29;
+    text-align: center;
+}
+
+.description {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #2D4A29;
+    text-align: center;
+    margin: 50px 30px 0 30px;
+}
+
+.contact {
+    font-family: Comfortaa, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    background-color: #165425;
+    text-align: center;
+    margin: 60px 100px 50px 100px;
+    border-radius : 20px;
 }
