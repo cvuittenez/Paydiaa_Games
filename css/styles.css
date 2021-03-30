@@ -41,7 +41,7 @@ header > ul > li {
 }
 
 #ic-4 {
-    left: 46%;
+    left: 54%;
     top: 82%;
     width: 9vw;
     height: auto;
@@ -76,6 +76,16 @@ header > ul > li {
     font-family: raleway, sans-serif;
     font-weight: bold;
     text-align: center;
+}
+
+.reseaux {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.reseaux > a {
+    margin-left: 20px;
 }
 
 h2 {
@@ -328,4 +338,51 @@ footer {
 
 .entete > ul li:hover::before{
     height: 40%;
+}
+
+.fleche{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fleche span{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.fleche span:nth-child(2){
+    animation-delay: -0.2s;
+    transform: rotate(45deg) translate(-20px,-20px);
+}
+
+.fleche span:nth-child(3){
+    animation-delay: -0.4s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+
+    }
 }
