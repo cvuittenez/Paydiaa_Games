@@ -271,7 +271,7 @@ textarea {
 }
 
 button {
-    margin-left: 13em;
+    margin-left: 12em;
     font-family: raleway, sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -279,10 +279,6 @@ button {
     background-color: #586E59;
     border-radius: 15px;
     width: 250px;
-}
-
-footer {
-    background-color: #586E59;
 }
 
 .entete{
@@ -385,4 +381,40 @@ footer {
         transform: rotate(45deg) translate(20px,20px);
 
     }
+}
+
+footer {
+    background-color: #586E59;
+}
+
+.reseaux-footer > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.reseaux-footer > ul > li {
+    margin: 20px auto;
+}
+
+.arobase {
+    font-family: Raleway, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+footer > a > img  {
+    display: block;
+    margin: 40px auto;
+    width: 107px;
+    height: auto;
+    transform: translateX(-18%);
+}
+
+.mention {
+    font-family: Raleway, sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
 }
