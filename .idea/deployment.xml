@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="paydiaagames">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sites/paydiaagames.clement-torchiat.fr" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="projetS1">
         <serverdata>
           <mappings>
