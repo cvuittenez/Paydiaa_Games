@@ -7,9 +7,9 @@
 </head>
 <body>
     <header>
-        <img src="icones/icone_1.svg" alt="Équipe" id="ic-1">
-        <img src="icones/icone_2.svg" alt="Projet" id="ic-2">
-        <img src="icones/icone_3.svg" alt="Contact" id="ic-3">
+        <a href="#team"><img src="icones/icone_1.svg" alt="Équipe" id="ic-1"></a>
+        <a href="#project"><img src="icones/icone_2.svg" alt="Projet" id="ic-2"></a>
+        <a href="#communication"><img src="icones/icone_3.svg" alt="Contact" id="ic-3"></a>
     </header>
     <div class="page-1">
         <img src="css/images/fond-cartes.png" alt="fond" class="fond">
@@ -17,7 +17,7 @@
         <h1 class="titre">Paydiaa<br>Games</h1>
         <img src="icones/flèches.svg" alt="Voir Plus" id="ic-4">
     </div>
-    <div class="page-2">
+    <div id="team" class="page-2">
         <h2 class="equipe">Notre équipe</h2>
         <div class="notre-equipe">
             <div class="yanis">
@@ -44,7 +44,7 @@
         </div>
         <img class="design" src="css/images/fond-design.png" alt="design">
     </div>
-    <div class="page-3">
+    <div id="project" class="page-3">
         <h2 class="projet">Le projet</h2>
         <div class="le-projet">
             <div class="pitch">
@@ -62,16 +62,20 @@
         </div>
         <h3>Fonctionnalités</h3>
         <div class="fonctionnalites">
-            <div class="regles"><h4>Règles alternatives et officielles</h4></div>
-            <div class="vente"><h4>Vente de matériel</h4></div>
-            <div class="commentaire"><h4>Espace commentaire et contacte</h4></div>
-            <div class="recherche"><h4>Barre de recherche</h4></div>
-            <div class="newsletter"><h4>Newsletter</h4></div>
-            <div class="profil"><h4>Profil utilisateur</h4></div>
-            <div class="categories"><h4>Repertorier les différentes catégories de jeux de sociétés</h4></div>
+            <div class="colonne-1">
+                <div class="regles"><h4>Règles alternatives et officielles</h4></div>
+                <div class="commentaire"><h4>Espace commentaire et contacte</h4></div>
+                <div class="newsletter"><h4>Newsletter</h4></div>
+            </div>
+            <div class="colonne-2">
+                <div class="vente"><h4>Vente de matériel</h4></div>
+                <div class="recherche"><h4>Barre de recherche</h4></div>
+                <div class="profil"><h4>Profil utilisateur</h4></div>
+            </div>
         </div>
+        <div class="categories"><h4>Repertorier les différentes catégories de jeux de sociétés</h4></div>
     </div>
-    <div class="page-4">
+    <div id="communication" class="page-4">
         <h2 class="Contact">Contact</h2>
         <form>
             <div>
