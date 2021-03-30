@@ -153,6 +153,11 @@ h2 {
     border-radius : 20px;
 }
 
+.contact > a {
+    color: white;
+    text-decoration: none;
+}
+
 .page-3 {
     background-color: #F9F9F9;
 }
@@ -239,16 +244,26 @@ input:focus, textarea:focus {
     border-color: #165425;
 }
 
+input {
+    height: 4em;
+}
+
 textarea {
     vertical-align: top;
-    height: 8em;
+    height: 15em;
 }
 
 button {
-    margin-left: 15em;
+    margin-left: 13em;
     font-family: raleway, sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: white;
+    background-color: #586E59;
+    border-radius: 15px;
+    width: 250px;
+}
+
+footer {
     background-color: #586E59;
 }
