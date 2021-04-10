@@ -225,11 +225,13 @@ h4 {
     font-family: Comfortaa, sans-serif;
     font-weight: bold;
     font-size: 35px;
-    color: white;
-    background-color: #436A4C;
+    color: #436A4C;
     text-align: center;
     padding: 10px;
     margin: 30px;
+    background-image: url("/css/images/flèche_droite.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 form{
@@ -291,16 +293,15 @@ button {
 .entete > ul li{
     position: relative;
     list-style: none;
-    margin: 0 150px;
+    margin: 15px 150px;
     cursor: pointer;
 }
 
 .entete > ul li a{
     text-decoration: none;
-}
-
-.entete > ul li a img{
-    font-size: 2em;
+    font-family: Raleway, sans-serif;
+    color: white;
+    font-size: 44px;
 }
 
 .entete > ul li::before{
@@ -315,26 +316,6 @@ button {
     overflow: hidden;
     transition: 0.5s ease-in-out;
     background-color: #0C3922;
-}
-
-.entete > ul li:nth-child(1)::before{
-    content: "Équipe";
-    justify-content: center;
-    color: white;
-}
-
-.entete > ul li:nth-child(2)::before{
-    content: "Projet";
-    color: white;
-}
-
-.entete > ul li:nth-child(3)::before{
-    content: 'Contact';
-    color: white;
-}
-
-.entete > ul li:hover::before{
-    height: 40%;
 }
 
 .fleche{
@@ -418,4 +399,8 @@ footer > a > img  {
     color: white;
     text-align: center;
     padding-bottom: 20px;
+}
+
+.saut-de-ligne {
+    margin-top: 30px;
 }
