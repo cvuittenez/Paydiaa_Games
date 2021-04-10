@@ -214,11 +214,12 @@ h3 {
 .colonne-1, .colonne-2 {
     flex: auto;
     width: 700px;
+    margin-left: 150px;
 }
 
 .categories {
     width: 1400px;
-    margin: 0 auto;
+    margin: 0 150px;
 }
 
 h4 {
@@ -226,12 +227,13 @@ h4 {
     font-weight: bold;
     font-size: 35px;
     color: #436A4C;
-    text-align: center;
     padding: 10px;
     margin: 30px;
-    background-image: url("/css/images/flèche_droite.png");
-    background-repeat: no-repeat;
-    background-position: left center;
+}
+
+.colonne-1 > ul, .colonne-2 > ul, .liste-categories > ul{
+    list-style-type: '→';
+    color: #436A4C;
 }
 
 form{
@@ -293,7 +295,7 @@ button {
 .entete > ul li{
     position: relative;
     list-style: none;
-    margin: 15px 150px;
+    margin: 25px 150px;
     cursor: pointer;
 }
 
@@ -301,7 +303,11 @@ button {
     text-decoration: none;
     font-family: Raleway, sans-serif;
     color: white;
-    font-size: 44px;
+    font-size: 35px;
+}
+
+.entete > ul li a:hover{
+    color: #A8D4B2;
 }
 
 .entete > ul li::before{
